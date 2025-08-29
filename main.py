@@ -61,20 +61,6 @@ save_participant(csv_file,participant)
 all_participants = load_participants(csv_file)
 
 
-for i in all_participants:
-     print(i)
-try:
-      for index, i in enumerate(all_participants):
-       if index == 0:  # Header row
-        print(f"Headers: {' | '.join(i)}")
-        print("_" * 40)
-
-       else:
-        print(i)
-except :
-     print("Try again!")
-
-
 
 
 
